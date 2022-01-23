@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Game</title>  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Matching Game</h1>
+  <p>Drag the Organs over to the matching Question</p>
+
+  <main class="container">
+    <div class="box">
+      <ul class="draggable-list">
+        <li id="e1" draggable="true">
+          <img src="./assets/Eyes.png" alt="Eyes">
+        </li>
+        <li id="e2" draggable="true">
+            <img src="./assets/Ears.png" alt="Ears">
+        </li>
+        <li id="e3" draggable="true">
+          <img src="./assets/Mouth.png" alt="Mouth">
+        </li>
+        <li id="e4" draggable="true">
+          <img src="./assets/Nose.png" alt="Nose">
+        </li>
+        <li id="e5" draggable="true">
+          <img src="./assets/touch.png" alt="mouth">
+        </li>
+      </ul>
+    </div>
+    <div class="box1">
+      <ul class="draggable-list">
+        <li id="s2" draggable="true">When you go to school the bell rings after each period,How do you hear that ?I am a organ that helps people to hear…..Who am i ?</li>
+        <li id="s5" draggable="true">When you buy an ice cream you feel it’s cold.how is that ?i am a organ that helps you to feel….Who am i ?</li>
+        <li id="s1" draggable="true">When you see a color, how do you know that everybody else sees the same color?I am a sense organ which helps you to see….Who am i ?</li>
+        <li id="s3" draggable="true">When you eat a candy it is sweet ,how do you taste it? I am an organ that help people to taste….Who am i ?</li>
+        <li id="s4" draggable="true">When you catch a cold you can’t smell anything.Why is that ?i am a organ that helps you to smell….Who am i ?</li>
+      </ul>
+    </div>
+  </main>
+
+  <div id="endMessage">
+    <h3>Well done!</h3>
+    <table>
+      <tr>
+        <th>Organs</th>
+        <th>Sense</th>
+      </tr>
+      <tr>
+        <td>Eyes</td>
+        <td>Helps to see things</td>
+      </tr>
+      <tr>
+        <td>Ears</td>
+        <td>Helps to Listen</td>
+      </tr>
+      <tr>
+        <td>Tounge</td>
+        <td>Help to Taste</td>
+      </tr>
+      <tr>
+        <td>Nose</td>
+        <td>Helps to Smell</td>
+      </tr>
+      <tr>
+        <td>Skin</td>
+        <td>Helps us feel and Touch</td>
+      </tr>
+    </table>
+
+    <button onclick="playAgain()">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
